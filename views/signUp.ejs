@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nodejs 도서관</title>
+</head>
+<body>
+    <h1>회원가입</h1>
+    <form action="/signupCheck" method="post">
+        <div>
+            <label for="">이름</label>
+            <input type="text" name="userName" placeholder="이름을 입력해주세요."/>
+        </div>
+        <div>
+            <label for="">ID</label>
+            <input type="text" name="userId" placeholder="id를 입력해주세요."/>
+            <!--id="" 값이 아니라 name 값으로 해야 한다.-->
+        </div>
+        <div>
+            <label for="">PW</label>
+            <input type="password" name="userPw" placeholder="password를 입력해주세요."/>
+        </div>
+        <div>
+            <label for="">email</label>
+            <input type="email" name="userEmail" placeholder="email를 입력해주세요."/>
+        </div>
+        <div>
+            <label for="">휴대폰 번호</label>
+            <input type="number" name="userPhone" placeholder="휴대폰 번호를 입력해주세요."/>
+        </div>
+        <button type="submit">가입하기</button>
+    </form>
+</body>
+</html>

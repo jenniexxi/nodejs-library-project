@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <!--https://stackoverflow.com/questions/33439812/what-is-the-meaning-of-tags-in-html-->
+  
+  <% for(let i=0; i < booklist.length ; i++){ %>
+    <div>
+        <div>제목 : <%= booklist[i].title %></div>
+        <div>작가 : <%= booklist[i].author %></div>
+        <div>출판날짜 : <%= booklist[i].enroll_date %></div>
+    </div>
+  <% } %>
+<form action="/main" method="get">
+  <button type="submit">메인으로</button>
+</form>
+
+</body>
+</html> 

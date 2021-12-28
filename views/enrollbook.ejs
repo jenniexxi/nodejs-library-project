@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/enrollbookCheck" method="get">
+        <div>
+            <label for="">책이름</label>
+            <input type="text" name="bookname" placeholder="책이름을 입력해주세요."/>
+        </div>
+        <div>
+            <label for="">저자</label>
+            <input type="text" name="authorname" placeholder="저자를 입력해주세요."/>
+        </div>
+        <button type="submit" id="enrollBtn">등록하기</button>     
+    </form>
+
+    <form action="/showbook" method="get">
+    <button type="submit" id="booklistBtn">등록된 책 보기</button>
+    </form> 
+</body>
+</html>
